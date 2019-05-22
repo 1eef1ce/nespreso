@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'NespressoLucas-Regular';
+    src: url('fonts/NespressoLucas-Regular.eot?') format('embedded-opentype'),
+         url('fonts/NespressoLucas-Regular.woff') format('woff'),
+         url('fonts/NespressoLucas-Regular.ttf') format('truetype'),
+         url('fonts/NespressoLucas-Regular.svg#NespressoLucas-Regular') format('svg');
+}
+@font-face {
+    font-family: 'NespressoLucas-Light';
+    src: url('fonts/NespressoLucas-Light.eot?') format('embedded-opentype'),
+         url('fonts/NespressoLucas-Light.woff') format('woff'),
+         url('fonts/NespressoLucas-Light.ttf') format('truetype'),
+         url('fonts/NespressoLucas-Light.svg#NespressoLucas-Light') format('svg');
+}
+@font-face {
+    font-family: 'NespressoLucas-Bold';
+    src: url('fonts/NespressoLucas-Bold.eot?') format('embedded-opentype'),
+         url('fonts/NespressoLucas-Bold.woff') format('woff'),
+         url('fonts/NespressoLucas-Bold.ttf') format('truetype'),
+         url('fonts/NespressoLucas-Bold.svg#NespressoLucas-Bold') format('svg');
+}
+@font-face {
+    font-family: 'NespressoLucas-XtraBd';
+    src: url('fonts/NespressoLucas-XtraBd.eot?') format('embedded-opentype'),
+         url('fonts/NespressoLucas-XtraBd.woff') format('woff'),
+         url('fonts/NespressoLucas-XtraBd.ttf') format('truetype'),
+         url('fonts/NespressoLucas-XtraBd.svg#NespressoLucas-XtraBd') format('svg');
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.landing_container {
+    max-width: 95%;
+    width: 920px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.landing_col {
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.landing_row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.landing .w-100 {
+    width: 100%;
+}
+.landing .border {
+    border: 1px solid #3b3b3b;
+}
+.landing .text-center {
+    text-align: center;
+}
+.landing .no-gutters {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.landing .abs {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+}
+.landing_h2 {
+    font-family: 'NespressoLucas-XtraBd';
+    font-size: 36px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #5b3306;
+    text-align: center;
+    margin: 50px 0 45px;
+    width: 100%;
+}
+.landing_top {
+    background: #000;
+}
+.landing_top .landing_h2 {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+.landing_content {
+    background: #fff;
+}
+.img-wrapper {
+    position: relative;
+}
+.landing_items {
+    font-family: 'NespressoLucas-XtraBd';
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.landing_items .landing_col {
+    margin-bottom: 20px;
+}
+.landing_items .img-wrapper {
+    height: 206px;
+}
+.landing-item-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+}
+.landing_item-name {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.landing_item-desc {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.landing_item-price-text {
+    font-family: 'NespressoLucas-Bold';
+    font-size: 16px;
+    line-height: 14px;
+    margin-top: 15px;
+}
+.landing_item-price {
+    font-size: 26px;
+    line-height: 27px;
+    margin-top: 8px;
+}
+.landing_item-bonus {
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(189,161,130,.9);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -10px;
+}
+.bonus_s {
+    right: 15%;
+}
+.bonus_l {
+    right: 0;
+}
+.bonus-plus {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    font-family: 'NespressoLucas-Bold';
+    font-size: 34px;
+    line-height: 18px;
+}
+.bonus-num {
+    font-family: 'NespressoLucas-Bold';
+    font-size: 34px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+.landing_item-order {
+    font-size: 22px;
+    text-transform: uppercase;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #000;
+    padding: 0;
+    background: transparent;
+    margin-top: 18px;
+}
+.landing_adv .img-wrapper {
+    height: 90px;
+}
+.landing_adv .landing_col {
+    padding: 35px 0 25px;
+    border-right: 0;
+    margin-bottom: 25px;
+}
+.landing_adv .landing_col:last-of-type {
+    border-right: 1px solid #3b3b3b;
+}
+.landing_icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+}
+.landing_adv-text {
+    font-family: 'NespressoLucas-Regular';
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 20px;
+}
+.landing_info {
+    font-family: 'NespressoLucas-Regular';
+    font-size: 14px;
+    line-height: normal;
+    color: #000;
+    margin: 25px 0;
+}
+@media (max-width: 475px) {
+    .landing_h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 25px 0 20px;
+    }
+    .landing_col {
+        flex-basis: auto;
+    }
+    .landing_adv .landing_col {
+        border-right: 1px solid #3b3b3b;
+        border-bottom: 0;
+        max-width: 75%;
+        margin: auto;
+    }
+    .landing_adv .landing_col:last-of-type {
+        border-bottom: 1px solid #3b3b3b;
+    }
+}
